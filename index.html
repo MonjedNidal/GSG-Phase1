@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Monjed Store</title>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1 class="heading">Welcome to Monjed's Store!</h1>
+      </header>
+
+      <section class="filter-section">
+        <label for="category-filter">Filter by Category:</label>
+        <select id="category-filter">
+          <option value="all">All</option>
+          <option value="electronics">Electronics</option>
+          <option value="clothing">Clothing</option>
+          <option value="home appliances">Home Appliances</option>
+          <option value="furniture">Furniture</option>
+          <option value="footwear">Footwear</option>
+          <option value="accessories">Accessories</option>
+        </select>
+      </section>
+
+      <section>
+        <h2>Products List</h2>
+        <div class="product-display-area" id="product-list">
+          <!-- JS dinamically renders the products here -->
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
