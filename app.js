@@ -82,7 +82,7 @@ function displayProducts(filteredProducts) {
          <img
            class="product-image"
            src="/assets/${product.image}"
-           alt="headphones"
+           alt=${product.name}
          />
          <div class="product-info">
            <h4>${product.name}</h4>
